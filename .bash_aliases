@@ -24,7 +24,7 @@ alias psg='ps aux | grep -v grep | grep -i -e VSZ -e'
 ################
 #System Aliases#
 ################
-alias df=df -Tha --total'
+alias df='df -Tha --total'
 alias rm='rm -I --preserve-root'
 alias mv='mv -i'
 alias wget='wget -c'
