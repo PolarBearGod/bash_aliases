@@ -38,6 +38,7 @@ alias myip='curl http://ipecho.net/plain; echo'
 ##############
 alias sha1='openssl sha1'
 alias update='sudo apt-get update && sudo apt-get upgrade --yes'
+
 alias ping='ping -c 2'
 
 ###########
@@ -78,3 +79,7 @@ function extract {
     fi
 fi
 }
+
+
+# Bash Prompt - User
+# PS1="[\[$(tput sgr0)\]\[\033[38;5;11m\]\@\[$(tput sgr0)\]\[\033[38;5;15m\]] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;10m\]\u\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;14m\]@\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;208m\]\h\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;196m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\\$\[$(tput sgr0)\]"
